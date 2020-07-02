@@ -1,0 +1,22 @@
+{
+    "host": "127.0.0.1",
+    "port": 5000,
+    "model_file": {
+        "default" : "yolo.h5",
+        "others" : [
+            {
+                "model_name" : "weapons",
+                "path" : "//"
+            }
+        ]
+    },
+    "default_objects" : ["person"],
+    "default_parameters" : {
+        "default_probability" : 50,
+        "default_speed" : "fastest",
+        "upload_directory" : "uploads/",
+        "detected_directory" : "detected/",
+        "log_file": "error.log"
+    },
+    "error_log" : "error.log" 
+}
